@@ -16,7 +16,7 @@ const Join = () => {
         <div className="pt-20">
         <div className="marquee flex  rounded-20 ">
           <div className="z-1000 bg-yellow-500 text-black text-center flex items-center p-2">News</div>
-  <div className="marquee__inner items-center">
+  <div className="marquee__inner items-center -z-50">
     <p className="marquee__line w-max">Website Under Maintenance</p>
   </div>
 </div>

@@ -63,9 +63,7 @@
     display: flex;
 }
 /* news */
-.marquee::after{
 
-}
 .marquee {
     overflow: hidden;
     font-family: "Pridi", sans-serif;

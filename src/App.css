@@ -1,0 +1,43 @@
+.border {
+    font-size: 1rem;
+    display: grid;
+    place-items: center;
+    min-height: 8px;
+    padding: 0.5rem;
+}
+
+.full {
+    position: relative;
+    background-image: linear-gradient(#000, #000), url("https://uploads-ssl.webflow.com/646759c55a25df70a3bdeb83/6467893f7c15a1580eafb7c3_btn-bg.svg"), linear-gradient(#0d1219, #0d1219);
+    background-position: 0 0, 50%, 0 0;
+    background-size: auto, cover, auto;
+    background-clip: padding-box;
+    border: solid 1px transparent;
+    border-radius: 0.8rem;
+    color: #fff;
+
+    &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        margin: -3px;
+    
+        border-radius: inherit;
+      
+        background: linear-gradient(135deg, #63eacf, #ff92f4);;   
+    }
+}
+.full:hover {
+    background-image: url("https://uploads-ssl.webflow.com/646759c55a25df70a3bdeb83/6467893f7c15a1580eafb7c3_btn-bg.svg"), linear-gradient(#0d1219, #0d1219);
+    background-position: 50%, 0 0;
+    background-size: cover, auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+  

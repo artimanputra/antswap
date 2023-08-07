@@ -1,3 +1,5 @@
+@import url(https://db.onlinewebfonts.com/c/589aea3c60e04505f023550504709883?family=Hobeaux+Bold);
+@import url(https://db.onlinewebfonts.com/c/62718c6d983eabf0650437464be08d15?family=Hobeaux+Regular);
 .border {
     font-size: 1rem;
     display: grid;
@@ -5,10 +7,31 @@
     min-height: 8px;
     padding: 0.5rem;
 }
+/* @font-face {
+    font-family: "Hobeaux Bold";
+    src: url("https://db.onlinewebfonts.com/t/589aea3c60e04505f023550504709883.eot");
+    src: url("https://db.onlinewebfonts.com/t/589aea3c60e04505f023550504709883.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/589aea3c60e04505f023550504709883.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/589aea3c60e04505f023550504709883.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/589aea3c60e04505f023550504709883.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/589aea3c60e04505f023550504709883.svg#Hobeaux Bold")format("svg");
+} */
+.welcome{
+    font-family: "Hobeaux Bold";
+    font-size: 100px;
+}
+.descri{
+    font-family: "Hobeaux Regular";
+    font-size: large;
+}
 
+.landing{
+    background:  radial-gradient(at 50% bottom,rgb(32, 1, 60),rgb(47, 0, 118),#200058,#00122c,black,#000);
+    /* background-image: (#000, #2d63f7), url("https://uploads-ssl.webflow.com/646759c55a25df70a3bdeb83/6467893f7c15a1580eafb7c3_btn-bg.svg"), linear-gradient(#0d1219, #0d1219); */
+}
 .full {
     position: relative;
-    background-image: linear-gradient(#000, #000), url("https://uploads-ssl.webflow.com/646759c55a25df70a3bdeb83/6467893f7c15a1580eafb7c3_btn-bg.svg"), linear-gradient(#0d1219, #0d1219);
+    background-image: linear-gradient(#000, #2d63f7), url("https://uploads-ssl.webflow.com/646759c55a25df70a3bdeb83/6467893f7c15a1580eafb7c3_btn-bg.svg"), linear-gradient(#0d1219, #0d1219);
     background-position: 0 0, 50%, 0 0;
     background-size: auto, cover, auto;
     background-clip: padding-box;
@@ -39,5 +62,64 @@
     align-items: center;
     display: flex;
 }
+/* news */
+.marquee::after{
 
+}
+.marquee {
+    overflow: hidden;
+    font-family: "Pridi", sans-serif;
+    font-weight: 600;
+    color: red;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: rgba(128, 128, 128, 0.137);
+  }
   
+  .marquee__inner {
+    display: flex;
+  }
+  
+  .marquee__line {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 2px 1.5px;
+    min-width: 100%;
+    white-space: nowrap;
+    animation-name: marqueeLine;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes marqueeLine {
+    from {
+      transform: translateX(400%);
+    }
+    
+    to {
+      transform: translateX(-100%);
+    }
+  }
+@media screen and (max-width: 679px){
+    .welcome{
+        font-size: 50px;
+    }
+    .descri{
+        text-align: center;
+        font-size: small;
+    }
+    .title{
+        padding-top: 120px;
+    }
+}
+@media screen and (max-width: 270px){
+    
+    .welcome{
+        font-size: 40px;
+    }
+    .descri{
+        text-align: center;
+        font-size: small;
+    }
+}

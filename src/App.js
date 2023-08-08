@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/navbar";
-import Join from "./components/join";
+import Hero from "./components/hero";
+import Roadmap from "./components/roadmap"
 import "./App.css";
 
 const App = () => {
@@ -9,8 +10,9 @@ const App = () => {
       <div className="relative z-0 landing">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center z-10">
           <Navbar />
+        <Hero />        
         </div>
-        <Join />        
+        <Roadmap />
       </div>
     </BrowserRouter>
   );

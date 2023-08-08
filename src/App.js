@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import Roadmap from "./components/roadmap"
+import Join from "./components/join";
 import "./App.css";
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         <Hero />        
         </div>
         <Roadmap />
+        <Join />
       </div>
     </BrowserRouter>
   );

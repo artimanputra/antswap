@@ -8,13 +8,15 @@ import "./App.css";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 landing">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center z-10">
+    <div>
+      <div className="relative z-0 ">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center z-10 landing">
           <Navbar />
         <Hero />        
         </div>
         <Roadmap />
         <Join />
+      </div>
       </div>
     </BrowserRouter>
   );

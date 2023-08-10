@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-
-function faq() {
+import './css/glowing.css'
+function Faq() {
   const [activeAccordion, setActiveAccordion] = useState(null);
 
   const toggleAccordion = (index) => {
@@ -39,26 +39,30 @@ function faq() {
   ];
 
   return (
-    <div className="text-white bg-gray-800 min-h-screen">
+    <section className='bg-gray-800 '>
+    <div className="text-white  min-h-screen">
       <h1 className="text-3xl text-center my-8">FAQ'S</h1>
-      <div className="w-90% max-w-5xl mx-auto my-4">
-        <div className="accordion">
+      <div className="w-70% mx-auto my-4">
+        <div className="accordion inline-flex flex-col h-60vw justify-between m-8">
           {faqsData.map((faq, index) => (
-            <div className="accordion-item" key={index}>
-              <div className="accordion-item-header" onClick={() => toggleAccordion(index)}>
+            <div className='gradient-border w-full m-7' id="box">
+            <div className="accordion_item z-10 p-3  bg-[#1D1F20] w-full rounded h-full" key={index}>
+              <div className="accordion_item_header" onClick={() => toggleAccordion(index)}>
                 {faq.question}
               </div>
               {activeAccordion === index && (
-                <div className="accordion-item-body">
-                  <div className="accordion-item-body-content">{faq.answer}</div>
+                <div className="accordion_item_body">
+                  <div className="accordion_item_body_content">{faq.answer}</div>
                 </div>
               )}
+            </div>
             </div>
           ))}
         </div>
       </div>
     </div>
+    </section>
   );
-};
+}
 
-export default faq;
+export default Faq;

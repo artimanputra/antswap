@@ -1,0 +1,17 @@
+/* glowing.css */
+@keyframes glowing {
+    0% {
+      box-shadow: 0 0 10px rgba(0, 0, 255, 0.5), 0 0 20px rgba(0, 0, 255, 0.5), 0 0 30px rgba(0, 0, 255, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(0, 0, 255, 0.5), 0 0 30px rgba(0, 0, 255, 0.5), 0 0 40px rgba(0, 0, 255, 0.5);
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(0, 0, 255, 0.5), 0 0 20px rgba(0, 0, 255, 0.5), 0 0 30px rgba(0, 0, 255, 0.5);
+    }
+  }
+  
+  .glow-img {
+    animation: glowing 2s infinite;
+  }
+  

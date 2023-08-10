@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="marquee flex  rounded-20 ">
           <div className="z-1000 bg-yellow-500 text-black text-center flex items-center p-2">News</div>
         <div className="marquee__inner items-center -z-50">
-         <p className="marquee__line w-max z-50">Website Under Maintenance &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dex coming soon</p>   
+         <p className="marquee__line w-max">Website Under Maintenance &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dex coming soon</p>   
         </div>
        </div>
         </div>

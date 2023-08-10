@@ -40,8 +40,8 @@ const Navbar = () => {
               <a href={`#${Link.id}`}>{Link.title}</a>
             </li>
           ))}
-          <button className="border font-size[1rem] grid place-items-center min-h-8 p-0.4rem full">
-            Buy AntSwap
+          <button className="border font-size[1rem] grid place-items-center min-h-8 p-0.4rem full" data-hover="Comming Soon">
+            Buy AntSwap 
           </button>
         </ul>
 

@@ -7,7 +7,9 @@
     min-height: 8px;
     padding: 0.5rem;
 }
-
+body{
+  background-color: #000;
+}
 .welcome{
     font-family: "Hobeaux Bold";
     font-size: 100px;

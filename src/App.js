@@ -29,7 +29,6 @@ const App = () => {
               <Hero />
             </div>
           </div>
-
           <Roadmap />
           <Join />
         </BrowserRouter>

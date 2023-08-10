@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Hero from "./components/hero";
 import Roadmap from "./components/roadmap";
 import Join from "./components/join";
+import Faq from "./components/faq";
 import Preloader from "./components/preloder"; // Corrected import name
 import "./App.css";
 
@@ -31,6 +32,7 @@ const App = () => {
           </div>
           <Roadmap />
           <Join />
+          <Faq />
         </BrowserRouter>
       )}
     </div>

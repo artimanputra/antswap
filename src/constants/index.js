@@ -15,7 +15,7 @@ export const navLinks = [
   const experiences = [
     {
       title: "The Great Snail Burn",
-      // icon: MLSA,
+      icon: "1",
       iconBg: "#E6DEDD",
       points: [
         "Unprecedented deflationary event with 17.6B $SNAIL tokens burned, for stability and long-term value.",
@@ -24,7 +24,7 @@ export const navLinks = [
     },
     {
       title: "Snail Native Ecosystem",
-      // icon: google,
+      icon: "2",
       iconBg: "#383E56",
       points: [
         "Meme Discovery Engine, Native Meme DEX, Snailbox Mobile, Apple Vision Dex Tools, and more!",
@@ -33,7 +33,7 @@ export const navLinks = [
     },
     {
       title: "The AntSwap Platform",
-      // icon: postman,
+      icon: "3",
       iconBg: "#383E56",
       points: [
         "An all-in-one crypto hub where meme coin communities unite &thrive. The ultimate meme metropolis.",

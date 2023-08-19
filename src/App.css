@@ -118,11 +118,20 @@ body{
     }
 }
 
+/* About */
+.green-pink-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+/* About */
+
 /* roadmap */
 .section_roadmap {
   z-index: 1;
   position: relative;
   overflow: hidden;
+  background-color: #13191f;
 }
 .padding-global {
   height: 100%;
@@ -202,7 +211,7 @@ body{
   }
   .btn {
     background-image: linear-gradient(135deg, #eceef1, #fff);
-    border-radius: 16px;
+    border-radius: 20px;
     padding: 1px;
     text-decoration: none;
     overflow: hidden;
@@ -210,11 +219,12 @@ body{
   }
   .btn.is-green {
     color: #fff;
-    background-image: linear-gradient(135deg, #299b85, #63eacf);
+    /* background-image: linear-gradient(135deg, #299b85, #63eacf); */
+    background: linear-gradient(270deg,#5fe6d0,#60b2f1 33%,#9380ff 68%,#e590ff);
     
   }
   .btn_text.is-green {
-    background-image: linear-gradient(135deg, #63eacf, #299b85);
+    background: linear-gradient(270deg,#5fe6d0,#60b2f1 33%,#9380ff 68%,#e590ff);
     padding: 15px;
     font-weight: 800;
     justify-content: center;
@@ -222,7 +232,7 @@ body{
     display: flex;
   }
   .btn_text.is-green:hover {
-    background-image: linear-gradient(#299b85, #299b85);
+    background: linear-gradient(100deg,#5fe6d0,#60b2f1 33%,#9380ff 68%,#e590ff);
   }
   .btn_text.is-green.is-small {
     font-size: 15px;
@@ -236,7 +246,8 @@ body{
     width: 2500px;
     height: 2500px;
     opacity: .16;
-    background-image: radial-gradient(circle, #ff92f4, rgba(254, 225, 72, 0) 48%);
+    /* background-image: radial-gradient(circle, #ff92f4, rgba(254, 225, 72, 0) 48%); */
+    background-color: #13191f;
     margin-left: -312.5px;
     position: absolute;
     top: -1250px;
@@ -245,7 +256,7 @@ body{
     right: auto;
   }
   
-  .home_roadmap-background-1 {
+  /* .home_roadmap-background-1 {
     z-index: -1;
     width: 4000px;
     height: 4000px;
@@ -256,7 +267,7 @@ body{
     bottom: -2000px;
     left: auto;
     right: -2000px;
-  }
+  } */
 
   
   /* Join us */
@@ -264,6 +275,7 @@ body{
     z-index: 1;
     position: relative;
     overflow: hidden;
+    background: #13191f;
   }
   .w-layout-grid {
     grid-row-gap: 16px;
@@ -309,7 +321,7 @@ body{
   .btn_square-glass {
     width: 94px;
     height: 94px;
-    background-image: linear-gradient(135deg, #fee148, #63eacf);
+    background-image: -webkit-linear-gradient(top,#5fe6d0,#597bff 38%,#9380ff 72%,#e590ff);
     border-radius: 24px;
     justify-content: center;
     align-items: center;
@@ -379,7 +391,197 @@ body{
     color: #fff;
   }
   /* FAQ Section */
+  .section_faqs {
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+  .home_faqs-background-1 {
+    z-index: -1;
+    width: 3000px;
+    height: 3000px;
+    opacity: 1;
+    /* background-image: radial-gradient(circle, #3948af, rgba(254, 225, 72, 0) 48%); */
+    /* background-image: url(https://www.crema.finance/_nuxt/img/productsLeft.fd076aa.png);
+    left: 0; */
+    /* background-image: url(https://www.crema.finance/_nuxt/img/productsRight.5d744e5.png);
+    right: 0;  */
+    background: #13191f;
+    margin-top: -1500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    top: 0%;
+    bottom: auto;
+    left: auto;
+    right: auto;
+  }
+  .home_faqs-background-2 {
+    z-index: -1;
+    width: 3000px;
+    height: 3000px;
+    opacity: 1;
+    /* background-image: radial-gradient(circle, #3948af, rgba(254, 225, 72, 0) 48%); */
+    /* background-image: url(https://www.crema.finance/_nuxt/img/productsLeft.fd076aa.png);
+    left: 0; */
+    /* background-image: url(https://www.crema.finance/_nuxt/img/productsRight.5d744e5.png);
+    right: 0;  */
+    background: #13191f;
+    margin-top: -1500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    top: 0%;
+    bottom: auto;
+    left: auto;
+    right: auto;
+  }
   
+  .home_faqs-background-wrapper {
+    z-index: -1;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: 0%;
+    background: #13191f;
+  }
+  .home_embed-carret {
+    width: 100%;
+    height: 28px;
+    color: #000;
+    justify-content: center;
+    display: flex;
+    position: static;
+    top: auto;
+    bottom: -28px;
+    left: 0%;
+    right: 0%;
+  }
+  .faq-arrow-embed {
+    width: 24px;
+    height: 24px;
+    max-height: 24px;
+    max-width: 24px;
+    min-height: 24px;
+    min-width: 24px;
+    margin-left: 600px;
+    transform: rotate(90deg);
+  }
+  .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+  }
+  .accordion-item-header.active::after {
+    content: "\2212";
+  }  
+  .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  }
+
+
+
+  .faq-style-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  
+}
+
+.question-section {
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  cursor: pointer;
+  width: 60vw;
+  /* margin: 80px; */
+}
+
+.question-align {
+  background: #1e2328;
+  align-items: center;
+  display: flex;
+  min-height: 64px;
+  text-align: left;
+  color: #fff;
+  padding: 22px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.question-align:hover {
+  background: #282f34;
+}
+.question-align h4 {
+  margin-left: 8px;
+}
+
+.question-styling {
+  font-size: 17px;
+  width: 100%;
+}
+
+.question-icon {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: 8px;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.answer-divider {
+  border-top: 1px solid lightgray ;
+}
+
+.answer {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 7px;
+  max-height: 20px;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  text-align: left;
+  color: #959cac;
+  background: #1e2328;
+}
+
   /* FAQ Section */
   @media screen and (max-width: 991px) {
     h2 {

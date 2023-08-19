@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 function join() {
   return (
@@ -8,22 +8,9 @@ function join() {
       data-w-id="00c9bae1-d863-2482-0101-d417bc09d12c"
       class="section_social-media"
     >
-      <div class="home_sm_embed-carret w-embed">
-        <svg
-          width="64"
-          height="25"
-          viewBox="0 0 64 25"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M38.585 22.2381C34.8148 25.5371 29.1852 25.5371 25.4149 22.2381L1.53375e-06 -7.09544e-06L64 -1.43051e-06L38.585 22.2381Z"
-            fill="currentColor"
-          />
-        </svg>
-      </div>
+      
 
-      <div class="padding-global">
+      {/* <div class="padding-global"> */}
         <div class="container-large">
           <div class="padding-section-medium"></div>
           <div class="home_section-heading-1-line">
@@ -230,7 +217,7 @@ function join() {
           </div>
           <div class="padding-section-sm-bottom"></div>
         </div>
-      </div>
+      {/* </div> */}
 
       <div class="home_sm-background-1"></div>
       <div class="home_sm-background-2"></div>

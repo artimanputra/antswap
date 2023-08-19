@@ -14,30 +14,47 @@ export const navLinks = [
   ];
   const experiences = [
     {
-      title: "The Great Snail Burn",
+      title: "Phase 1",
       icon: "1",
       iconBg: "#E6DEDD",
       points: [
-        "Unprecedented deflationary event with 17.6B $SNAIL tokens burned, for stability and long-term value.",
-        "Unprecedented deflationary event with 17.6B $SNAIL tokens burned, for stability and long-term value.",
+        "WEBSITE AND SOCIAL MEDIA LAUNCH",
+        "AntSwap DEX Public Testnet",
+        "Twitter trend Campaigns ",
+        "Early Patnership",
       ],
     },
     {
-      title: "Snail Native Ecosystem",
+      title: "Phase 2",
       icon: "2",
       iconBg: "#383E56",
       points: [
-        "Meme Discovery Engine, Native Meme DEX, Snailbox Mobile, Apple Vision Dex Tools, and more!",
-        "Meme Discovery Engine, Native Meme DEX, Snailbox Mobile, Apple Vision Dex Tools, and more!",
+        "MAINNET LAUNCH ON LINEA",
+        "Coinmarketcap & Coingecko",
+        "NFT MINT LIVE ON LINEA",
+        "Burn: After the NFT minting ends, all unminted NFTs will be burned.",
       ],
     },
     {
-      title: "The AntSwap Platform",
+      title: "Phase 3",
       icon: "3",
       iconBg: "#383E56",
       points: [
-        "An all-in-one crypto hub where meme coin communities unite &thrive. The ultimate meme metropolis.",
-        "An all-in-one crypto hub where meme coin communities unite &thrive. The ultimate meme metropolis.",
+        "TOKEN LAUNCH ($ANS)",
+        "ANtSwap (DEX) Mainnet",
+        "Yield Farming & POOLS",
+        "Antswap (IDO) Testnet",
+      ],
+    },
+    {
+      title: "Phase 4",
+      icon: "4",
+      iconBg: "#383E56",
+      points: [
+        "Listing on CEX",
+        "Antswap (IDO) Testnet",
+        "ANTMarketplace",
+        "ANTCharity",
       ],
     },
 

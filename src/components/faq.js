@@ -50,7 +50,7 @@ export default function FaqApp() {
                 ref={contentRef}
                 className={active ? `answer answer-divider` : `answer`}
               >
-                <p>Because I love coding</p>
+                <p className=" p-2">Because I love coding knhsklefnlkehfklbfkjbegkljfk efhkerlgklehgmebgihe gbnfgr ekghregeg rng re iogkrlengklreerdnf klrbgm rgkjbjkerg klrebg rgrjkregbjreg kbklnekgerkngbjker gkljbrgbr gre g rje gklr gkrrghj </p>
               </div>
             </div>
           </button>

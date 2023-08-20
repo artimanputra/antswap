@@ -22,7 +22,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-20 h-20 object-contain" />
+          <img src={logo} alt="logo" className="w-20 h-20 object-contain p-1" />
 
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Antswap

@@ -11,12 +11,13 @@ body{
   background-color: #000;
 }
 .welcome{
-    font-family: "Hobeaux Bold";
-    font-size: 100px;
+    font-size: 40px;
+    font-weight: 600;
 }
 .descri{
-    font-family: "Hobeaux Regular";
-    font-size: large;
+    /* font-family: "Hobeaux Regular"; */
+    font-size: medium;
+    color: rgba(245, 245, 245, 0.808);
 }
 
 .landing{
@@ -735,5 +736,16 @@ body{
       min-width: 20px;
     }
   
+}
+
+/* hero */
+.topText{
+  width: 100%;
+  padding: 20px 0;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Helvetica-NeueBd;
+  align-content: space-between;
 }
 

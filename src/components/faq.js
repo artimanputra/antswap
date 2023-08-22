@@ -56,6 +56,31 @@ export default function FaqApp() {
           </button>
         </div>
       </div>
+      <div className="App">
+        <div>
+          <button
+            className={`question-section ${active}`}
+            onClick={toggleAccordion}
+          >
+            <div>
+              <div className="question-align">
+                <h4 className="question-style">
+                  1. Why do you like web developemnt
+                </h4>
+                <FiPlus
+                  className={active ? `question-icon rotate` : `question-icon`}
+                />
+              </div>
+              <div
+                ref={contentRef}
+                className={active ? `answer answer-divider` : `answer`}
+              >
+                <p className=" p-2">Because I love coding knhsklefnlkehfklbfkjbegkljfk efhkerlgklehgmebgihe gbnfgr ekghregeg rng re iogkrlengklreerdnf klrbgm rgkjbjkerg klrebg rgrjkregbjreg kbklnekgerkngbjker gkljbrgbr gre g rje gklr gkrrghj </p>
+              </div>
+            </div>
+          </button>
+        </div>
+      </div>
 {/* faq */}
 
       <div className="padding-section-large"></div>

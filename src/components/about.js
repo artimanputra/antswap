@@ -52,8 +52,8 @@ function About() {
               }}
               className="bg-[#1f2328] rounded-[20px] py-5 px-12 min-h-[385px] w-full xs:w-full pb-15 "
             >    
-            <div className="flex items-center justify-center mb-3 text-white-100 font-bold text-[24px]">Empowering the Future with Linea</div>      
-            <div className="flex items-center justify-center text-white-100 text-[18px] p-4" >AntSwap is a decentralized finance (DeFi) project built on Linea. Our mission is to revolutionize the industry by introducing an ecosystem powered by NFTs and a decentralized exchange. AntSwap aims to create a transparent, secure, and user-friendly environment for seamless digital NFT,asset trading, liquidity provision, and yield incentives.</div>      
+            <div className="flex items-center justify-center mb-3 text-white-100 font-bold text-[24px] xs: text-lg">Empowering the Future with Linea</div>      
+            <div className="flex items-center justify-center text-white-100 text-[18px] p-4 xs: text-sm" style={{padding:"inherit"}} >AntSwap is a decentralized finance (DeFi) project built on Linea. Our mission is to revolutionize the industry by introducing an ecosystem powered by NFTs and a decentralized exchange. AntSwap aims to create a transparent, secure, and user-friendly environment for seamless digital NFT,asset trading, liquidity provision, and yield incentives.</div>      
             </div>
           </motion.div>
         </Tilt>

@@ -98,7 +98,10 @@ body{
   }
 @media screen and (max-width: 679px){
     .welcome{
-        font-size: 50px;
+        font-size: 30px;
+    }
+    .welcome span{
+      text-align: center;
     }
     .descri{
         text-align: center;
@@ -111,7 +114,11 @@ body{
 @media screen and (max-width: 270px){
     
     .welcome{
-        font-size: 40px;
+        font-size: 25px;
+        
+    }
+    .welcome span{
+      text-align: center;
     }
     .descri{
         text-align: center;
@@ -212,7 +219,7 @@ body{
   }
   .btn {
     background-image: linear-gradient(135deg, #eceef1, #fff);
-    border-radius: 20px;
+    border-radius: 50em;
     padding: 1px;
     text-decoration: none;
     overflow: hidden;
@@ -228,6 +235,7 @@ body{
     background: linear-gradient(270deg,#5fe6d0,#60b2f1 33%,#9380ff 68%,#e590ff);
     padding: 15px;
     font-weight: 800;
+    
     justify-content: center;
     align-items: center;
     display: flex;
@@ -237,6 +245,14 @@ body{
   }
   .btn_text.is-green.is-small {
     font-size: 15px;
+  }
+  .btn-gradient-2 {
+    background: linear-gradient(black, black) padding-box,
+                linear-gradient(to right, darkblue, darkorchid) border-box;
+    border-radius: 50em;
+    padding: 15px;
+    font-size: 15px;
+    border: 4px solid transparent;
   }
   .padding-section-large {
     padding-top: 72px;

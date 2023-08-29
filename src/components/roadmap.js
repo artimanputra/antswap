@@ -64,7 +64,7 @@ function Roadmap() {
           </div>
           <div className="padding-section-x-small"></div>
           <div className="home_section-heading-1-line">
-            <h2>The Road of the Snail</h2>
+            <h2>The Road of the AntSwap</h2>
           </div>
           <div className="padding-section-small"></div>
           <div className="home_roadmap-subheading">

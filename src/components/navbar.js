@@ -40,9 +40,18 @@ const Navbar = () => {
               <a href={`#${Link.id}`}>{Link.title}</a>
             </li>
           ))}
-          <button className="border font-size[1rem] grid place-items-center min-h-8 p-0.4rem full" data-hover="Comming Soon">
-            Buy AntSwap 
-          </button>
+          {/* <button className="border font-size[1rem] grid place-items-center min-h-8 p-0.4rem full" data-hover="Comming Soon">
+            Launch App
+          </button> */}
+          <div className="btn_wrapper-center">
+              <Link
+                to="https://t.me/Snailbrook_Entry"
+                rel="noopener noreferrer"
+                className="btn is-green w-inline-block"
+              >
+                <div className="btn_text is-green is-small" style={{padding:'8px'}} >Launch App</div>
+              </Link>
+            </div>
         </ul>
 
         {/* for mobile navigation */}

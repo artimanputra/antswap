@@ -18,28 +18,28 @@ export default function FaqApp() {
 
   const faqsData = [
     {
-      question: 'What is Web Development?',
+      question: 'How does ANTSWAP work? ',
       answer:
-        'Web Development broadly refers to the tasks associated with developing functional websites and applications for the Internet. The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks.',
+        'ANTSWAP is a decentralized platform that facilitates the seamless exchange of digital assets and NFTs. Built on blockchain technology, ANTSWAP utilizes smart contracts to enable secure and transparent transactions between users.',
     },
     {
-      question: 'What is HTML?',
-      answer: 'HTML, aka HyperText Markup Language, is the dominant markup language for creating websites and anything that can be viewed in a web browser.',
+      question: 'What are the key features of ANTSWAP? ',
+      answer: 'ANTSWAP offers a user-friendly interface, fast and secure transactions, support for a wide range of digital assets and NFTs, decentralized governance, liquidity provision, yield farming, and a vibrant community.',
     },
     {
-      question: 'What are some basic technical skills of a Front-End developer?',
+      question: 'How can I get support or assistance with using ANTSWAP? ',
       answer:
-        'HTML, CSS, JavaScript, Frameworks (CSS and JavaScript frameworks), Responsive Design, Version Control/Git, Testing/Debugging, Browser Developer Tools, Web Performance, SEO (Search Engine Optimization), Command Line, CMS (Content Management System)',
+        "ANTSWAP provides a dedicated support team that can assist you with any queries or issues you might have. You can reach out to them through the platform's customer support channels.",
     },
     {
-      question: 'What is HTTP?',
+      question: "What is the process for purchasing or acquiring ANTSWAP's digital tokens?",
       answer:
-        'HTTP, aka HyperText Transfer Protocol, is the underlying protocol used by the World Wide Web and this protocol defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands.',
+        "You can acquire ANTSWAP tokens by participating in token sales, trading on supported exchanges, or engaging in the platform's token distribution mechanisms like liquidity mining and yield farming.",
     },
     {
-      question: 'What is CORS?',
+      question: 'Security and Trust ',
       answer:
-        'CORS, aka Cross-Origin Resource Sharing, is a mechanism that enables many resources (e.g. images, stylesheets, scripts, fonts) on a web page to be requested from another domain outside the domain from which the resource originated.',
+        'Your security and trust are extremely important to us. AntSwap leverages blockchain technology to secure all transactions, ensuring the authenticity and provenance of each NFT. We prioritize transparency, and our smart contract integration ensures that artists receive fair compensation for their creations even after their initial sale. We Believe in Tranparency and all the Upcoming Products should passed Through an audit Before Deployment.',
     },
   ];
 

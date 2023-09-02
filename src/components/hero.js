@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
-import video from "../assets/video.mp4"
+// import video from "../assets/video.wmv"
 import { Link } from "react-router-dom";
 import { logo } from "../assets";
 
@@ -33,7 +33,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className=" w-[30%]"><img src={logo} style={{transform: 'rotate(15deg)'}}/>
+        <div className=" w-[50%] xs:w-[50%]"><video autoPlay loop muted>
+        <source src="/video.mp4" type="video/mp4" />
+        </video>
         </div>
       </div>
 

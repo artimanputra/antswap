@@ -5,7 +5,7 @@ import { logo } from '../assets';
 function Prelode() {
   return (
     <div className='landing h-screen flex justify-center items-center'>
-      <img src={logo} className='filter brightness-150 shadow-lg' alt='Logo' />
+      <source src="/video.mp4" className='filter brightness-150 shadow-lg' type="video/mp4" />
     </div>
   );
 }

@@ -23,7 +23,7 @@ const ExperienceCard = ({ experience }) => {
         transition: "background-color .15s cubic-bezier(.075, .82, .165, 1)",
         borderRadius: '20px',
       }}
-      contentArrowStyle={{ borderRight: "20px solid #232631" }}
+      contentArrowStyle={{ borderRight: "10px solid #232631" }}
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full w-[60%] h-[60%] object-contain text-[35px]">

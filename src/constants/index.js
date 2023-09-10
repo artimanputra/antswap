@@ -1,20 +1,28 @@
+import { discord, medium, telegram, twitter } from "../assets";
+
+
 export const navLinks = [
     {
       id: "about",
-      title: "About",
+      icon: twitter,
+      icon_link:"https://www.linkedin.com/in/arti-manputra-21183420a/",
     },
     {
-      id: "roadmap",
-      title: "Roadmap",
+      id: "telegram",
+      icon: telegram,
+      icon_link:"https://www.linkedin.com/in/arti-manputra-21183420a/",
     },
     {
-      id: "join",
-      title: "Join",
+      id: "medium",
+      icon: medium,
+      icon_link:"https://www.linkedin.com/in/arti-manputra-21183420a/",
     },
     {
-      id:"fauced",
-      title:"Fauced"
-    }
+      id: "discord",
+      icon: discord,
+      icon_link:"https://www.linkedin.com/in/arti-manputra-21183420a/",
+    },
+   
   ];
   const experiences = [
     {

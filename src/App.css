@@ -337,8 +337,8 @@ body{
   }
 
   .btn_square-glass {
-    width: 94px;
-    height: 94px;
+    width: 160px;
+    height: 50px;
     background-image: -webkit-linear-gradient(top,#5fe6d0,#597bff 38%,#9380ff 72%,#e590ff);
     border-radius: 24px;
     justify-content: center;
@@ -352,8 +352,8 @@ body{
     display: inline-block;
   }
   .btn_square-filler-text {
-    width: 90px;
-    height: 88px;
+    width: 138px;
+    height: 44px;
     background-color: #0d1219;
     background-image: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 22%, #000), url("https://uploads-ssl.webflow.com/646759c55a25df70a3bdeb83/6467893f7c15a1580eafb7c3_btn-bg.svg");
     background-position: 0 0, 0 0;
@@ -361,7 +361,7 @@ body{
     border-radius: 24px;
     justify-content: center;
     align-items: center;
-    padding: 16px;
+    padding: 20px;
     display: flex;
   }
   .btn_square-filler-text:hover {
@@ -371,12 +371,16 @@ body{
   }
 
   .btn_square-embed {
-    width: 56px;
-    height: 56px;
-    max-height: 56px;
-    max-width: 56px;
-    min-height: 56px;
-    min-width: 56px;
+    width: 20px;
+    height: 20px;
+    max-height: 20px;
+    max-width: 20px;
+    min-height: 20px;
+    min-width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
     color: #fff;
   }
   .w-embed:before, .w-embed:after {

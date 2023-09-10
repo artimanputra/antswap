@@ -22,9 +22,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-20 h-20 object-contain p-1" />
+          <img src={logo} alt="logo" className="w-20 h-20 object-contain p-2" />
 
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+          <p className="text-white text-[24px] font-bold cursor-pointer flex">
             Antswap
           </p>
         </Link>
@@ -33,16 +33,13 @@ const Navbar = () => {
             <li
               key={Link.id}
               className={`${
-                active === Link.title ? "text-[#63eacf]" : "text-white"
-              } hover:text-[#63eacf] font-[18px] cursor-pointer py-2 `}
-              onClick={() => setActive(Link.title)}
+                active === Link.icon ? "text-[#63eacf]" : "text-white"
+              } hover:color-[#63eacf] font-[18px] cursor-pointer py-2 hidden md:block`}
+              onClick={() => window.open(Link.icon_link, "_blank")}
             >
-              <a href={`#${Link.id}`}>{Link.title}</a>
+              <img src={Link.icon} className="w-6 h-6 hover:white"/>
             </li>
           ))}
-          {/* <button className="border font-size[1rem] grid place-items-center min-h-8 p-0.4rem full" data-hover="Comming Soon">
-            Launch App
-          </button> */}
           <div className="btn_wrapper-center">
               <Link
                 to="https://t.me/Snailbrook_Entry"
@@ -55,7 +52,7 @@ const Navbar = () => {
         </ul>
 
         {/* for mobile navigation */}
-        <div className="sm:hidden flex flex-1 justify-end items-center">
+        {/* <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
             alt="menu"
@@ -84,7 +81,7 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

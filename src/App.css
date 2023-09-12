@@ -635,8 +635,17 @@ body{
       grid-row-gap: 32px;
     }
     .btn_square-filler-text {
-      width: 90px;
-      height: 90px;
+      width: 130px;
+      height: 30px;
+    }
+    .w-inline-block {
+      max-width: 95%;
+      display: inline-block;
+    }
+    .btn_square-glass {
+      width: 140;
+      height: 45px;
+      border-radius: 24px;
     }
     .home_faq-item {
       grid-row-gap: 16px;
@@ -694,22 +703,24 @@ body{
       top: -430px;
     }
     .home_sm-grid-item {
-      width: 102px;
-    }
-    .btn_square-glass {
-      width: 100px;
-      height: 100px;
+      width: 110px;
+      height: 45px;
+      border-radius: 24px;
     }
     
-  .btn_square-glass {
-    width: 72px;
-    height: 73px;
-    border-radius: 16px;
-  }
+    .w-inline-block {
+      max-width: 97%;
+      display: inline-block;
+    }
+    .btn_square-glass {
+      width: 140;
+      height: 45px;
+      border-radius: 24px;
+    }
    
   .btn_square-filler-text {
-    width: 68px;
-    height: 68px;
+    width: 100px;
+    height: 20px;
     border-radius: 15px;
   }
   .home_faq-question-box, .home_faq-answer-box {

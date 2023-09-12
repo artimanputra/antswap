@@ -72,7 +72,7 @@ const Hero = () => {
                   >
                     <div class="btn_square-filler-text">
                       <p class="btn_square-embed w-embed text-[10px]">
-                        Launch&nbsp;&nbsp;App
+                        Docs
                       </p>
                       <div class="btn_circular-embed-text">Docs</div>
                     </div>

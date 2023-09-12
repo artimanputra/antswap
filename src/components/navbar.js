@@ -32,12 +32,13 @@ const Navbar = () => {
           {navLinks.map((Link) => (
             <li
               key={Link.id}
-              className={`${
-                active === Link.icon ? "text-[#63eacf]" : "text-white"
-              } hover:color-[#63eacf] font-[18px] cursor-pointer py-2 hidden md:block`}
+              // className={`${
+              //   active === Link.icon ? "text-[#63eacf]" : "text-white"
+              // } hover:color-[#63eacf] font-[18px] cursor-pointer py-2 hidden md:block`}
+              className="py-2 cursor-pointer"
               onClick={() => window.open(Link.icon_link, "_blank")}
             >
-              <img src={Link.icon} className="w-6 h-6 hover:white"/>
+              <img src={Link.icon} className="w-6 h-6"/>
             </li>
           ))}
           <div className="btn_wrapper-center">

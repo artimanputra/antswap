@@ -40,7 +40,7 @@ export const navLinks = [
       title: "Phase 2",
       icon_color: "#fff" ,
       icon: "2",
-      iconBg: "linear-gradient(top,#5fe6d0,#597bff 38%,#9380ff 72%,#e590ff)",
+      iconBg: "#383E56",
       points: [
         "MAINNET LAUNCH ON LINEA",
         "Coinmarketcap & Coingecko",

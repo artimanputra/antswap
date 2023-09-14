@@ -5,22 +5,22 @@ export const navLinks = [
     {
       id: "about",
       icon: twitter,
-      icon_link:"https://www.linkedin.com/in/arti-manputra-21183420a/",
+      icon_link:"https://twitter.com/AntSwapfinance",
     },
     {
       id: "telegram",
       icon: telegram,
-      icon_link:"https://www.linkedin.com/in/arti-manputra-21183420a/",
+      icon_link:"https://t.me/AntswapFinance",
     },
     {
       id: "medium",
       icon: medium,
-      icon_link:"https://www.linkedin.com/in/arti-manputra-21183420a/",
+      icon_link:"https://medium.com/@antswapofficial",
     },
     {
       id: "discord",
       icon: discord,
-      icon_link:"https://www.linkedin.com/in/arti-manputra-21183420a/",
+      icon_link:"https://discord.gg/tMmrbqvJ6c",
     },
    
   ];
@@ -38,8 +38,9 @@ export const navLinks = [
     },
     {
       title: "Phase 2",
+      icon_color: "#fff" ,
       icon: "2",
-      iconBg: "#383E56",
+      iconBg: "linear-gradient(top,#5fe6d0,#597bff 38%,#9380ff 72%,#e590ff)",
       points: [
         "MAINNET LAUNCH ON LINEA",
         "Coinmarketcap & Coingecko",
@@ -49,6 +50,7 @@ export const navLinks = [
     },
     {
       title: "Phase 3",
+      icon_color: "#fff" ,
       icon: "3",
       iconBg: "#383E56",
       points: [
@@ -60,6 +62,7 @@ export const navLinks = [
     },
     {
       title: "Phase 4",
+      icon_color: "#fff" ,
       icon: "4",
       iconBg: "#383E56",
       points: [

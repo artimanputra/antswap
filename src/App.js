@@ -33,7 +33,7 @@ const App = () => {
           </div>
           <About />
           <Roadmap />
-          <Join />
+          {/* <Join /> */}
           <FaqApp />
         </BrowserRouter>
       )}

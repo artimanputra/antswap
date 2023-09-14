@@ -24,7 +24,7 @@ const ExperienceCard = ({ experience }) => {
         borderRadius: '20px',
       }}
       contentArrowStyle={{ borderRight: "10px solid #232631" }}
-      iconStyle={{ background: experience.iconBg }}
+      iconStyle={{ background: experience.iconBg, color:experience.icon_color }}
       icon={
         <div className="flex justify-center items-center w-full h-full w-[60%] h-[60%] object-contain text-[35px]">
           {experience.icon}
@@ -66,15 +66,15 @@ function Roadmap() {
           <div className="home_section-heading-1-line">
             <h2>The Road of the AntSwap</h2>
           </div>
-          <div className="padding-section-small"></div>
-          <div className="home_roadmap-subheading">
+          {/* <div className="padding-section-small"></div> */}
+          {/* <div className="home_roadmap-subheading">
             <p className="text-size-large is-gray-04">
               Our roadmap will remain shrouded in mystery until we deem the
               right time. However, all development steps we will take care to
               build and expand SnailBrook, fostering innovation and
               collaboration among meme coin enthusiasts.
             </p>
-          </div>
+          </div> */}
           <div className="padding-section-small"></div>
           <div className="btn_wrapper-center">
             <Link

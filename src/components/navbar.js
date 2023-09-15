@@ -22,7 +22,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-20 h-20 object-contain p-2 img-logo" />
+          <img src={logo} alt="logo" className="w-20 h-20 object-contain img-logo" />
           <div className=" w-[50%]  hero_video_logo">
             <video autoPlay loop muted>
               <source src="/video.mp4" type="video/mp4" />
@@ -31,7 +31,7 @@ const Navbar = () => {
 
 
           <p className="text-white text-[24px] font-bold cursor-pointer flex">
-            Antswap
+            ANTSWAP
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

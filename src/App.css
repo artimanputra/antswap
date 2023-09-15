@@ -616,9 +616,14 @@ body{
 }
 .img-logo{
   display: block;
+  margin-left: -51px;
 }
 .hero_video_logo{
   display: none;
+}
+.build-img{
+  padding-bottom: 10px;
+  padding-left: 0px;
 }
   /* FAQ Section */
   @media screen and (max-width: 991px) {

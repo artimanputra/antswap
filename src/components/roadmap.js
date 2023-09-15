@@ -97,7 +97,7 @@ function Roadmap() {
           </div>
           {/* Timeline */}
 
-          <div className="padding-section-large"></div>
+          {/* <div className="padding-section-large"></div> */}
         </div>
       </div>
       {/* <div class="home_faqs-background-wrapper"> */}

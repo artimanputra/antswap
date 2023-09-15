@@ -22,19 +22,22 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-20 h-20 object-contain p-2" />
+          <img src={logo} alt="logo" className="w-20 h-20 object-contain p-2 img-logo" />
+          <div className=" w-[50%]  hero_video_logo">
+            <video autoPlay loop muted>
+              <source src="/video.mp4" type="video/mp4" />
+            </video>
+          </div>
+
 
           <p className="text-white text-[24px] font-bold cursor-pointer flex">
             Antswap
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10 ">
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((Link) => (
             <li
               key={Link.id}
-              // className={`${
-              //   active === Link.icon ? "text-[#63eacf]" : "text-white"
-              // } hover:color-[#63eacf] font-[18px] cursor-pointer py-2 hidden md:block`}
               className="py-2 cursor-pointer"
               onClick={() => window.open(Link.icon_link, "_blank")}
             >

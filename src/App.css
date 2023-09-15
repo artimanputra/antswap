@@ -110,6 +110,14 @@ body{
     .title{
         padding-top: 120px;
     }
+    .hero-section{
+      padding-top: 0rem;
+      padding-left: 0rem;
+    }
+    .build-img{
+      padding-bottom: 10px;
+    }
+  
 }
 @media screen and (max-width: 270px){
     

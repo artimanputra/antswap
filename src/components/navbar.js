@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 absolute top-0 z-20`}
     >
-      <div className=" min-w-[70%] flex justify-between items-center max-w-7xl mx-auto max-sl:w-full">
+      <div className=" min-w-[80%] flex justify-between items-center max-w-7xl mx-auto max-sl:w-full">
         <Link
           to="/"
           className="flex items-center gap-2"

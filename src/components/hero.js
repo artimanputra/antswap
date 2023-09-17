@@ -9,9 +9,9 @@ import bg from "../assets/bgimg.jpg";
 const Hero = () => {
   return (
     <>
-      <section className=" h-screen py-20 flex justify-center items-center hero-section ">
-        <div className=" text-white w-[70%] z-90 h-full min-w-[70%] flex items-center title max-sm:w-[100%] max-sl:p-4 max-sl:flex-col max-sl:justify-evenly">
-          <div className=" pr-10 opacity-100 transform translate-x-0 w-[60%]  translate-y-0 translate-z-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 flex-col items-start flex skew-y-0 transform-style-preserve-3d welcome">
+      <section className=" h-screen py-20 flex justify-center items-center hero-section">
+        <div className=" text-white w-[80%] z-90 h-full min-w-[70%] flex items-center title max-sl:p-4 max-sl:flex-col max-sl:justify-evenly max-sm:w-[100%]">
+          <div className=" pr-10 opacity-100 transform translate-x-0 w-[60%]  translate-y-0 translate-z-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 flex-col items-start flex skew-y-0 transform-style-preserve-3d welcome max-sm:w-[100%] max-sm:px-0 max-sm:items-center">
 
           <div className=" w-[50%] xs:w-[70%]  hero_video2">
             <video autoPlay loop muted>
@@ -47,8 +47,7 @@ const Hero = () => {
                   <div className="btn-gradient-2 bg-black is-small ">Docs</div>
                 </Link>
               </div> */}
-              <div class="w-layout-grid home_sm-grid">
-                {/* copy */}
+              <div class="w-layout-grid home_sm-grid flex" style={{display:"flex"}}>
                 <div
                   id="w-node-_727d1bb7-f82d-86bb-264f-3997fdfaf372-e8ebca06"
                   class="home_sm-grid-item"
@@ -66,8 +65,6 @@ const Hero = () => {
                     </div>
                   </Link>
                 </div>
-              {/* copy */}
-                {/* copy */}
                 <div
                   id="w-node-_727d1bb7-f82d-86bb-264f-3997fdfaf372-e8ebca06"
                   class="home_sm-grid-item"

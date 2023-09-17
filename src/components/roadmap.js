@@ -78,7 +78,7 @@ function Roadmap() {
           <div className="padding-section-small"></div>
           <div className="btn_wrapper-center">
             <Link
-              to="https://t.me/Snailbrook_Entry"
+              to="https://twitter.com/AntSwapfinance"
               rel="noopener noreferrer"
               className="btn is-green w-inline-block"
             >

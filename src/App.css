@@ -625,6 +625,9 @@ body{
   padding-bottom: 10px;
   padding-left: 0px;
 }
+.hero_video2{
+  display: none;
+}
   /* FAQ Section */
   @media screen and (max-width: 991px) {
     h2 {
@@ -700,6 +703,10 @@ body{
     .hero_video_logo{
       display: block;
       width: 30%;
+    }
+    .hero_video2{
+      margin-top: 10px;
+      display: block;
     }
 }
 @media screen and (max-width: 767px) {
@@ -780,6 +787,9 @@ body{
     display: block;
     width: 30%;
   }
+  .hero_video2{
+    display: block;
+  }
 }
 @media screen and (max-width: 479px) {
     h2 {
@@ -824,7 +834,9 @@ body{
       max-width: 97%;
       display: inline-block;
     }
-    
+    .hero_video2{
+      display: block;
+    }
 }
 
 /* hero */

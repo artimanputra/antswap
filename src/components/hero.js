@@ -20,11 +20,11 @@ const Hero = () => {
           </div>
 
             <img src={component} className="w-56 build-img" />
-            <span className=" text-left leading-tight pb-5">
+            <span className=" text-left leading-tight pb-5 text-[40px]">
               {" "}
               Empowering the Future with Linea
             </span>{" "}
-            <span className="descri text-left text-[18px] leading-7 font-medium">
+            <span className="descri text-left text-[18px] leading-7 font-bold">
               AntSwap is a decentralized platform that facilitates the seamless
               exchange of digital assets and NFTs.
             </span>
@@ -57,6 +57,7 @@ const Hero = () => {
                     rel="noopener noreferrer"
                     class="btn_square-glass w-inline-block"
                   >
+
                     <div class="btn_square-filler-text">
                       <p class="btn_square-embed w-embed text-[10px]">
                         Launch&nbsp;&nbsp;App

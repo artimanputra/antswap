@@ -45,15 +45,15 @@ const Navbar = () => {
               <img src={Link.icon} className="w-6 h-6" />
             </li>
           ))}
-          <div className="btn_wrapper-center">
+          {/* <div className="btn_wrapper-center">
             <Link
               to="https://t.me/Snailbrook_Entry"
               rel="noopener noreferrer"
               className="btn is-green w-inline-block"
             >
               <div className="btn_text is-green is-small" style={{ padding: '8px' }} >Launch App</div>
-            </Link>
-          </div>
+            </Link> */}
+          {/* </div> */}
         </ul>
 
         {/* for mobile navigation */}

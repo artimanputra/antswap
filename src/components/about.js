@@ -27,18 +27,8 @@ function About() {
        
        {/* about */}
        <div
-        className={`xl:mt-12 flex xl:flex-row flex-col-reverse  overflow-hidden items-center justify-center`}
+        className={`xl:mt-12 flex flex-col  overflow-hidden items-center justify-center`}
       >
-        <motion.div
-          variants={slideIn("left", "tween", 0.2, 1)}
-          className="flex-[0.75] xs:flex xs:items-center xs:justify-center py-4  md:flex md:items-center md:justify-center"
-        >
-          <img
-            src='https://www.crema.finance/_nuxt/img/usdcFirst.93ffefe.png'
-            alt="profile"
-            className="max-w-[60%] rounded-[20px] xs:max-w-[70%] md:max-w[45%]"
-          />
-        </motion.div>
         <Tilt className="xs:w-[500px]  w-[5%] xs:flex xs:items-center xs:justify-center md:flex md:items-center md:justify-center pt-8 pb-10">
           <motion.div
             variants={slideIn("right", "tween", 0.2, 1)}
@@ -57,8 +47,29 @@ function About() {
             </div>
           </motion.div>
         </Tilt>
+        <Tilt className="xs:w-[500px]  w-[5%] xs:flex xs:items-center xs:justify-center md:flex md:items-center md:justify-center pt-8 pb-10">
+          <motion.div
+            variants={slideIn("right", "tween", 0.2, 1)}
+            className="xl:flex-1 xl:h-auto md:h-[388px] h-[200px] xs:h-[312px] w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card mt-5"
+          >
+            <div
+              options={{
+                max: 45,
+                scale: 1,
+                speed: 450,
+              }}
+              className="bg-[#1f2328] rounded-[20px] py-5 px-12 min-h-[385px] w-full xs:w-full pb-15 "
+            >    
+            <div className="flex items-center justify-center mb-3 text-white-100 font-bold text-[24px] xs: text-lg">Benefit for NFT Holders-----</div>      
+            <div className="flex items-center text-start text-white-100 text-[30px] p-4 xs:text-sm" style={{padding:"inherit"}} ><ol>
+<li>1) Guaranteed Allocation for Future Airdrop </li>
+<li>2) Private (IDO) Allocation</li> 
+<li>3) Extra privilege on Future Product in our Ecosystem.</li>
+<li>4) Early Contribution In Antswap</li></ol></div>      
+            </div>
+          </motion.div>
+        </Tilt>
       </div>
-      {/* about */}
       
           
          </div>

@@ -60,7 +60,7 @@ function About() {
               }}
               className="bg-[#1f2328] rounded-[20px] py-5 px-12 min-h-[385px] w-full xs:w-full pb-15 "
             >    
-            <div className="flex items-center justify-center mb-3 text-white-100 font-bold text-[24px] xs: text-lg">Benefit for NFT Holders-----</div>      
+            <div className="flex items-center justify-center mb-3 text-white-100 font-bold text-[24px] xs: text-lg">Benefit for NFT Holders</div>      
             <div className="flex items-center text-start text-white-100 text-[30px] p-4 xs:text-sm" style={{padding:"inherit"}} ><ol>
 <li>1) Guaranteed Allocation for Future Airdrop </li>
 <li>2) Private (IDO) Allocation</li> 

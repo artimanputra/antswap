@@ -20,7 +20,7 @@ const Hero = () => {
           </div>
 
             <img src={component} className="w-56 build-img" />
-            <span className=" text-left leading-tight pb-5 text-[40px]">
+            <span className=" text-left leading-tight pb-5 text-3xl">
               {" "}
               Empowering the Future with Linea
             </span>{" "}

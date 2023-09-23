@@ -31,9 +31,9 @@ export const navLinks = [
       iconBg: "#E6DEDD",
       points: [
         "WEBSITE AND SOCIAL MEDIA LAUNCH",
+        "Early Patnership",
         "AntSwap DEX Public Testnet",
         "Twitter trend Campaigns ",
-        "Early Patnership",
       ],
     },
     {
@@ -42,10 +42,9 @@ export const navLinks = [
       icon: "2",
       iconBg: "#383E56",
       points: [
-        "MAINNET LAUNCH ON LINEA",
-        "Coinmarketcap & Coingecko",
         "NFT MINT LIVE ON LINEA",
-        "Burn: After the NFT minting ends, all unminted NFTs will be burned.",
+        "AntSwap DEX mainnet",
+        "AntSwap IDO(Private Sale/Public Sale)"
       ],
     },
     {
@@ -54,10 +53,9 @@ export const navLinks = [
       icon: "3",
       iconBg: "#383E56",
       points: [
-        "TOKEN LAUNCH ($ANS)",
-        "ANtSwap (DEX) Mainnet",
+        "CoinMarket Cap & Coingeko Listing",
         "Yield Farming & POOLS",
-        "Antswap (IDO) Testnet",
+        "Antswap Market Place"
       ],
     },
     {
@@ -67,19 +65,17 @@ export const navLinks = [
       iconBg: "#383E56",
       points: [
         "Listing on CEX",
-        "Antswap (IDO) Testnet",
-        "ANTMarketplace",
-        "ANTCharity",
+        "AntSwap Charity",
+        "MORE Chain",
       ],
     },
     {
-      title: "Phase 4",
+      title: "Phase 5",
       icon_color: "#fff" ,
       icon: "5",
       iconBg: "#383E56",
       points: [
-        "Roadmap 2.0",
-"Coming soon"
+        "Roadmap 2.0 Comming Soon"
       ],
     },
 

@@ -53,7 +53,7 @@ const Hero = () => {
                   class="home_sm-grid-item"
                 >
                   <Link
-                    to="#"
+                    to="/comming"
                     rel="noopener noreferrer"
                     class="btn_square-glass w-inline-block"
                   >

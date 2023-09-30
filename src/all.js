@@ -7,6 +7,7 @@ import Join from "./components/join";
 import FaqApp from "./components/faq";
 import About from "./components/about"
 import Preloader from "./components/preloder"; // Corrected import name
+import Footer from "./components/footer";
 import "./App.css";
 
 const All = () => {
@@ -35,6 +36,7 @@ const All = () => {
           <Roadmap />
           {/* <Join /> */}
           <FaqApp />
+          <Footer />
         </div>
       )}
     </div>

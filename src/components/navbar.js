@@ -24,13 +24,6 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-20 h-20 object-contain " />
-          {/* <div className=" w-[50%]  hero_video_logo">
-            <video autoPlay loop muted>
-              <source src="/video.mp4" type="video/mp4" />
-            </video>
-          </div> */}
-
-
           <p className="text-white text-[24px] font-bold cursor-pointer flex">
             ANTSWAP
           </p>

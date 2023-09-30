@@ -10,11 +10,11 @@
   }
   
   .title {
-
+    font-weight: 600;
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #ff6f61;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(1, 1, 1, 0.3);
   }
   
   .countdown {

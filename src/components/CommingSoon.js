@@ -22,24 +22,29 @@ const ComingSoon = () => {
   return (
     <>
       <Navbar />
-      <div className='flex w-[95%] m-5'>
-        <div className={`${styles.comingSoonContainer}  w-[60%]`}>
-          <animated.h1 className={styles.title} style={titleSpring}>
+      <section className=" h-screen py-20 flex justify-center items-center hero-section">
+        <div className=" text-white w-[80%] z-90 h-full min-w-[70%] flex items-center title max-sl:p-4 max-sl:flex-col max-sl:justify-evenly max-sm:w-[100%]">
+          <div className=" pr-10 opacity-100 transform translate-x-0 w-[60%]  translate-y-0 translate-z-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 flex-col items-start flex skew-y-0 transform-style-preserve-3d welcome max-sm:w-[100%] max-sm:px-0 max-sm:items-center">
+
+            <div className=" w-[50%] xs:w-[70%]  hero_video2">
+              <video autoPlay loop muted>
+                <source src="/video.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <span className=" text-left leading-tight pb-5 text-3xl pt-4">
+            <animated.h1 className={styles.title} style={titleSpring}>
             DEX IS Coming Soon!
           </animated.h1>
-          <animated.div className={styles.countdown} style={countdownSpring}>
-            <p>Our DEX is under construction.</p>
-            <p>We'll be back shortly.</p>
-            {/* Add your countdown timer component here */}
-          </animated.div>
-
+            </span>
+          
+          </div>
+          <div className=" w-[50%] xs:w-[70%]  hero_video">
+            <video autoPlay loop muted>
+              <source src="/video.mp4" type="video/mp4" />
+            </video>
+          </div>
         </div>
-        <div className='w-[40%] flex'>
-          <video autoPlay loop muted>
-            <source src="/video.mp4" type="video/mp4" />
-          </video>
-        </div>
-      </div>
+      </section>
     </>
   );
 };

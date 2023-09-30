@@ -71,7 +71,7 @@ const Hero = () => {
                   class="home_sm-grid-item"
                 >
                   <Link
-                    to="#"
+                    to="https://antswap-2.gitbook.io/antswap-docs./"
                     rel="noopener noreferrer"
                     class="btn_square-glass w-inline-block"
                   >

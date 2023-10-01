@@ -1,5 +1,23 @@
 @import url(https://db.onlinewebfonts.com/c/589aea3c60e04505f023550504709883?family=Hobeaux+Bold);
 @import url(https://db.onlinewebfonts.com/c/62718c6d983eabf0650437464be08d15?family=Hobeaux+Regular);
+/* Style the link as a circle */
+.head-link {
+  display: inline-block;
+  width: 50px; /* Set your desired width and height for the circle */
+  height: 50px; /* Set your desired width and height for the circle */
+  border-radius: 50%; /* Creates a circular shape */
+  background-color: #007bff; /* Background color for the circle */
+  text-align: center; /* Center the link content horizontally */
+  line-height: 50px; /* Center the link content vertically */
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underlines from the link */
+}
+
+.head-link:hover {
+  background-color: #0056b3; /* Background color on hover */
+}
+
+
 .border {
     font-size: 1rem;
     display: grid;

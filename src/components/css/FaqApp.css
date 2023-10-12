@@ -1,0 +1,62 @@
+/* FaqApp.css */
+
+/* Style for the FAQ container */
+.faq-container {
+    margin-top: 20px;
+  }
+  
+  /* Style for each FAQ item */
+  .faq-item {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the question button */
+  .question-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+  
+  .question-section.active {
+    background-color: #e0e0e0;
+  }
+  
+  .question-style {
+    margin: 0;
+  }
+  
+  .question-icon {
+    font-size: 18px;
+    transition: transform 0.3s;
+  }
+  
+  .question-icon.rotate {
+    transform: rotate(45deg);
+  }
+  
+  /* Style for the answer */
+  .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s;
+    padding: 0 15px;
+    background-color: #f5f5f5;
+  }
+  
+  .answer-divider {
+    border-top: 1px solid #ccc;
+  }
+  
+  .answer p {
+    margin: 10px 0;
+  }
+  

@@ -1,18 +1,27 @@
-import { BrowserRouter } from "react-router-dom";
-import Navbar from "./components/navbar";
-import Join from "./components/join";
-import "./App.css";
+import React, { useEffect, useState } from "react";
+import { HashRouter,Route,Routes } from "react-router-dom";
+import All from "./all"
+import ComingSoon from "./components/CommingSoon";
+
 
 const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate data loading
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+  }, []);
+
   return (
-    <BrowserRouter>
-      <div className="relative z-0 landing">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center z-10">
-          <Navbar />
-        </div>
-        <Join />        
-      </div>
-    </BrowserRouter>
+    
+        <HashRouter>
+          <Routes>
+          <Route path="/comming" element={<ComingSoon />} />
+          <Route path="/" element={<All />} />
+          </Routes>
+        </HashRouter>
   );
 };
 

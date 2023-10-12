@@ -3,17 +3,18 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo,menu, close } from "../assets";
+import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
   return (
+    <>
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 absolute top-0 z-20`}
+      className={`${styles.paddingX} w-full flex items-center py-5 absolute top-0 z-20 max-sm:px-3`}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+      <div className=" min-w-[80%] flex justify-between items-center max-w-7xl mx-auto max-sl:w-full">
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -22,62 +23,61 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-20 h-20 object-contain" />
-
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Antswap
+          <img src={logo} alt="logo" className="w-20 h-20 object-contain " />
+          <p className="text-white text-[24px] font-bold cursor-pointer flex">
+            ANTSWAP
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10 ">
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((Link) => (
             <li
               key={Link.id}
-              className={`${
-                active === Link.title ? "text-[#63eacf]" : "text-white"
-              } hover:text-[#63eacf] font-[18px] cursor-pointer py-2 `}
-              onClick={() => setActive(Link.title)}
+              className="py-2 cursor-pointer"
+              onClick={() => window.open(Link.icon_link, "_blank")}
             >
-              <a href={`#${Link.id}`}>{Link.title}</a>
+              <img src={Link.icon} className="w-6 h-6" />
             </li>
           ))}
-          <button className="border font-size[1rem] grid place-items-center min-h-8 p-0.4rem full">
-            Buy AntSwap
-          </button>
+          {/* <div className="btn_wrapper-center">
+            <Link
+              to="https://t.me/Snailbrook_Entry"
+              rel="noopener noreferrer"
+              className="btn is-green w-inline-block"
+            >
+              <div className="btn_text is-green is-small" style={{ padding: '8px' }} >Launch App</div>
+            </Link> */}
+          {/* </div> */}
         </ul>
 
         {/* for mobile navigation */}
-        <div className="sm:hidden flex flex-1 justify-end items-center">
-          <img
-            src={toggle ? close : menu}
-            alt="menu"
-            className="w-[28px] h-[28px] object-contain cursor-pointer"
-            onClick={() => setToggle(!toggle)}
-          />
-          <div
-            className={`${
-              !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absoulte top-30 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
-          >
-            <ul className="list-none flex justify-end items-start flex-col gap-4 ">
-              {navLinks.map((Link) => (
-                <li
-                  key={Link.id}
-                  className={`${
-                    active === Link.title ? "text-white" : "text-secondary"
-                  } font-poppins font-medium text-[16px] cursor-pointer `}
-                  onClick={() => {
-                    setToggle(!toggle);
-                    setActive(Link.title);
-                  }}
-                >
-                  <a href={`#${Link.id}`}>{Link.title}</a>
-                </li>
-              ))}
-            </ul>
+          <div className="sm:hidden flex-1 contents tems-center bg-black justify-end ">
+            <img
+              src={toggle ? close : menu}
+              alt="menu"
+              className="w-[28px] h-[28px] object-contain cursor-pointer justify-end"
+              onClick={() => setToggle(!toggle)}
+            />
+            </div>
+            </div>
+            </nav>
+            <div
+              className={`${!toggle ? "hidden" : "flex"
+                } p-6 black-gradient absoulte z-10 bg-black sticky h-[100vh] w-[100vw] justify-center flex-col items-center`}
+            >
+              <ul className="list-none flex items-start flex-col gap-4 ">
+                {navLinks.map((Link) => (
+                  <li
+                    key={Link.id}
+                    className="py-2 cursor-pointer"
+                    onClick={() => window.open(Link.icon_link, "_blank")}
+                  >
+                    <img src={Link.icon} className="w-6 h-6" />
+                  </li>
+                ))}
+              </ul>
           </div>
-        </div>
-      </div>
-    </nav>
+          </>
+    
   );
 };
 

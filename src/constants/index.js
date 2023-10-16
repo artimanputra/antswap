@@ -31,7 +31,7 @@ export const navLinks = [
       iconBg: "#E6DEDD",
       points: [
         "WEBSITE AND SOCIAL MEDIA LAUNCH",
-        "Early Patnership",
+        "Early Partnership",
         "AntSwap DEX Public Testnet",
         "Twitter trend Campaigns ",
       ],

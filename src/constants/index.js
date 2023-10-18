@@ -20,7 +20,7 @@ export const navLinks = [
     {
       id: "discord",
       icon: discord,
-      icon_link:"https://discord.gg/7VFnvmSWjM",
+      icon_link:"https://discord.com/invite/pxyrTHNVw7",
     },
    
   ];

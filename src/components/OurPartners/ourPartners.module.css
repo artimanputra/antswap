@@ -1,0 +1,58 @@
+/* styles.module.css */
+
+.container {
+    width: 100%;
+    padding: 0;
+    max-width: 100%;
+  }
+  
+  .pTHeader {
+    width: 100%;
+    background: #13191f;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Varela Round", sans-serif;
+  }
+  
+  .TTypeCenter {
+    text-align: center;
+  }
+  
+  .TPadDouble {
+    padding: 30px;
+  }
+  
+  .TTitle {
+    color: white;
+    font-family: hobeaux, sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+  }
+  
+  .TContent {
+    background: #13191f;
+    color: #fff;
+  }
+  
+  .TTContent {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .TTContainer {
+    justify-content: center;
+    display: inline-block;
+    display: -ms-flex;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  
+  .company {
+    margin-right: 25px;
+  }
+  
+  .logo img {
+    width: 350px;
+    cursor: pointer;
+  }

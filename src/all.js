@@ -9,6 +9,7 @@ import About from "./components/about"
 import Preloader from "./components/preloder"; // Corrected import name
 import Footer from "./components/footer";
 import "./App.css";
+import OurPartners from "./components/OurPartners/OurPartners";
 
 const All = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -34,6 +35,7 @@ const All = () => {
           </div>
           <About />
           <Roadmap />
+          <OurPartners className=" mt-32"/>
           {/* <Join /> */}
           <FaqApp />
           <Footer />

@@ -56,3 +56,9 @@
     width: 350px;
     cursor: pointer;
   }
+@media screen and (max-width: 480px){
+  .TTitle{
+    font-size: 50px;
+    font-weight: 600;
+  }
+}

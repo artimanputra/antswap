@@ -3,7 +3,7 @@ import styles from './ourPartners.module.css';
 import DAO from './DAOStarter-Logo-Green.png'
 const OurPartners = () => {
   return (
-    <section className=' pt-44 pb-28 bg-[#13191f]'>  
+    <section className=' pt-44 pb-28 bg-[#13191f] max-sm:pt-28'>  
          <div className={`${styles.container}`}>
       <div className={`${styles.pTHeader} ${styles.TTypeCenter} ${styles.TPadDouble}`}>
         <h2 className={styles.TTitle}>Our Partners</h2>

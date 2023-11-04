@@ -54,8 +54,10 @@
     margin-right: 25px;
   }
   
-  .logo img {
-    width: 350px;
+  .logo a {
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    width: 30%;
     cursor: pointer;
   }
 @media screen and (max-width: 480px){

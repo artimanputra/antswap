@@ -19,18 +19,14 @@ const OurPartners = () => {
                 src={DAO}
                 alt="Company Logo 1"
                 className={styles.img}
-              >
-                <Link to="https://www.daostarter.pro/" target="_blank"></Link>
-              </img>
+              />
               
               
               <img
                 src={Psalma}
                 alt="Company Logo 1"
                 className={styles.img}
-              >
-                <Link to="https://www.psalmscapital.com/" target="_blank"></Link>
-              </img>
+              />
             </div>
           </div>
         </div>

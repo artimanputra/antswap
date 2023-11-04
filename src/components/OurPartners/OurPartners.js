@@ -15,19 +15,22 @@ const OurPartners = () => {
         <div className={styles.TTContent}>
           <div className={styles.TTContainer}>
             <div className={`${styles.company} ${styles.logo} ${styles.gradientBorder}` } id='box'>
-              <Link to="https://www.daostarter.pro/" target="_blank"><img
+              <img
                 src={DAO}
                 alt="Company Logo 1"
                 className={styles.img}
-              />
-              </Link>
-              <Link to="https://www.psalmscapital.com/" target="_blank">
+              >
+                <Link to="https://www.daostarter.pro/" target="_blank"></Link>
+              </img>
+              
+              
               <img
                 src={Psalma}
                 alt="Company Logo 1"
                 className={styles.img}
-              />
-              </Link>
+              >
+                <Link to="https://www.psalmscapital.com/" target="_blank"></Link>
+              </img>
             </div>
           </div>
         </div>
